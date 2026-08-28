@@ -10,7 +10,7 @@
   [![Dart](https://img.shields.io/badge/Language-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](#)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](#)
 
-  [English](#-english) • [日本語](#-日本語) • [中文](#-中文) • [Bahasa Indonesia](#-bahasa-indonesia) • [ภาษาไทย](#-ภาษาไทย)
+  [English](#-english) • [日本語](#-日本語) • [简体中文](#-简体中文) • [繁體中文](#-繁體中文) • [한국어](#-한국어) • [Bahasa Indonesia](#-bahasa-indonesia) • [ภาษาไทย](#-ภาษาไทย) • [Deutsch](#-deutsch)
 </div>
 
 ---
@@ -61,7 +61,7 @@
 
 ---
 
-## 🇨🇳 中文
+## 🇨🇳 简体中文
 
 ### ✨ 主要功能
 * 🔒 **生物识别自动登录:** 使用 Android Keystore 安全保存您的凭据，并通过指纹或面部识别瞬间登录。
@@ -78,6 +78,46 @@
 2. 在您的 Android 设备上打开该文件。
 3. 如果设备提示，请在设置中允许 **“安装未知来源的应用” (Install from unknown sources)**。
 4. 安装并使用！
+
+---
+
+## 🇹🇼 繁體中文
+
+### ✨ 主要功能
+* 🔒 **生物辨識自動登入:** 使用 Android Keystore 安全地儲存您的憑證，並透過指紋或臉部辨識瞬間登入。
+* ⚡️ **無縫預約:** 只需極少點擊即可完成日期、方向（前往 JAIST / 前往小松站）以及車次的選擇。
+* 🤖 **智慧會話管理:** 在後台自動處理 JAIST 伺服器的重新導向和會話 Cookie。
+
+### 🛠 技術堆疊
+* **UI 與核心:** Flutter / Dart
+* **網路:** `dio`, `dio_cookie_manager`, `cookie_jar`
+* **安全:** `local_auth`, `flutter_secure_storage`
+
+### 🚀 安裝方法
+1. 從 Releases 頁面下載最新的 [`app-release.apk`](#)。
+2. 在您的 Android 裝置上打開該檔案。
+3. 如果設備提示，請在設定中允許 **「安裝未知的應用程式」 (Install from unknown sources)**。
+4. 安裝並開始使用！
+
+---
+
+## 🇰🇷 한국어
+
+### ✨ 주요 기능
+* 🔒 **생체 인식 자동 로그인:** Android Keystore를 사용하여 자격 증명을 안전하게 저장하고 지문이나 얼굴 인식을 통해 즉시 로그인하세요.
+* ⚡️ **원활한 예약:** 최소한의 터치로 날짜, 방향(JAIST/고마쓰역), 시간표에서 탑승할 버스를 선택할 수 있습니다.
+* 🤖 **스마트 세션 관리:** 백그라운드에서 JAIST 서버 리디렉션 및 세션 쿠키를 자동으로 처리합니다.
+
+### 🛠 기술 스택
+* **UI 및 코어:** Flutter / Dart
+* **네트워킹:** `dio`, `dio_cookie_manager`, `cookie_jar`
+* **보안:** `local_auth`, `flutter_secure_storage`
+
+### 🚀 설치 방법
+1. Releases 페이지에서 최신 [`app-release.apk`](#)를 다운로드합니다.
+2. Android 기기에서 해당 파일을 엽니다.
+3. 기기 설정에서 알림이 표시되면 **"알 수 없는 출처의 앱 설치"(Install from unknown sources)**를 허용합니다.
+4. 설치 후 사용하시면 됩니다!
 
 ---
 
@@ -121,7 +161,27 @@
 
 ---
 
-## ⚠️ Disclaimer (免責事項 / 免责声明 / Peringatan / ข้อสงวนสิทธิ์)
+## 🇩🇪 Deutsch
+
+### ✨ Hauptfunktionen
+* 🔒 **Biometrisches Auto-Login:** Speichern Sie Ihre Zugangsdaten sicher mit dem Android Keystore und melden Sie sich sofort per Fingerabdruck oder Gesichtserkennung an.
+* ⚡️ **Nahtlose Buchung:** Wählen Sie Datum, Richtung und Fahrten aus dem Fahrplan mit minimalen Klicks aus.
+* 🤖 **Intelligentes Sitzungsmanagement:** Verarbeitet automatisch JAIST-Server-Weiterleitungen und Sitzungs-Cookies im Hintergrund.
+
+### 🛠 Verwendete Technologien
+* **UI & Kern:** Flutter / Dart
+* **Netzwerk:** `dio`, `dio_cookie_manager`, `cookie_jar`
+* **Sicherheit:** `local_auth`, `flutter_secure_storage`
+
+### 🚀 Installation
+1. Laden Sie die neueste [`app-release.apk`](#) von der Releases-Seite herunter.
+2. Öffnen Sie die Datei auf Ihrem Android-Gerät.
+3. Erlauben Sie **"Installation aus unbekannten Quellen" (Install from unknown sources)**, falls Sie in den Geräteeinstellungen dazu aufgefordert werden.
+4. Installieren und genießen!
+
+---
+
+## ⚠️ Disclaimer (免責事項 / 免责声明 / 免責聲明 / 면책 조항 / Peringatan / ข้อสงวนสิทธิ์ / Haftungsausschluss)
 
 > This is an **unofficial** application and is not affiliated with, maintained, authorized, endorsed, or sponsored by the Japan Advanced Institute of Science and Technology (JAIST). Use at your own risk.
 >
@@ -129,6 +189,12 @@
 >
 > 本应用为**非官方**工具，与日本北陆先端科学技术大学院大学 (JAIST) 无任何附属、维护、授权、认可或赞助关系。请自行承担使用风险。
 >
+> 本應用為**非官方**工具，與日本北陸先端科學技術大學院大學 (JAIST) 無任何附屬、維護、授權、認可或贊助關係。請自行承擔使用風險。
+>
+> 본 앱은 **비공식** 도구이며, 일본 호쿠리쿠 첨단과학기술대학원대학(JAIST)과 어떠한 제휴, 유지 관리, 승인, 보증 또는 후원 관계도 없습니다. 사용에 따른 위험은 사용자 본인이 부담합니다.
+>
 > Aplikasi ini bersifat **tidak resmi** dan tidak berafiliasi, dikelola, disahkan, didukung, atau disponsori oleh Japan Advanced Institute of Science and Technology (JAIST). Gunakan dengan risiko Anda sendiri.
 >
 > แอปพลิเคชันนี้เป็นแอปพลิเคชัน**ไม่เป็นทางการ** และไม่มีความเกี่ยวข้อง หรือไม่ได้รับการสนับสนุนจาก Japan Advanced Institute of Science and Technology (JAIST) ผู้ใช้ต้องยอมรับความเสี่ยงในการใช้งานเอง
+>
+> Dies ist eine **inoffizielle** Anwendung und ist weder mit dem Japan Advanced Institute of Science and Technology (JAIST) verbunden, noch wird sie von diesem gepflegt, autorisiert, unterstützt oder gesponsert. Die Nutzung erfolgt auf eigene Gefahr.
