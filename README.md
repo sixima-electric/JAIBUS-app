@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://img.icons8.com/color/96/000000/bus.png" alt="App Icon" width="80">
 
-  # A Fast JAIST Shuttle KOMATSU line Booking App
+  # Booking App for ***JAIST Shuttle/KOMATSU line***
 
   **An unofficial, fast, and secure Android application for JAIST Komatsu line.**
 
