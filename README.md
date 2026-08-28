@@ -13,7 +13,7 @@
   <br>
 
   ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
-  ### 🌐 [Install from here ! Download Website](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site) 🌐
+  ### 🌐 [Install from here ! Download Website](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site) 🌐
   ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑
 
   <br>
@@ -40,7 +40,7 @@
 * 🤖 **Smart Session Management:** Automatically handles JAIST server redirects and session cookies in the background.
 
 ### 🚀 Installation
-The easiest way to install the app is to visit our **[Download Website](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** from your Android device and tap the download button. 
+The easiest way to install the app is to visit our **[Download Website](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** from your Android device and tap the download button. 
 Alternatively, you can download the `app-release.apk` directly from the [Releases](#) tab.
 
 ---
@@ -53,7 +53,7 @@ Alternatively, you can download the `app-release.apk` directly from the [Release
 * 🤖 **自動セッション管理:** JAISTサーバー特有のリダイレクト処理やCookie保持をバックグラウンドで完全に自動化。
 
 ### 🚀 インストール方法
-Androidスマホから **[ダウンロード専用Webサイト](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** にアクセスし、緑色のボタンをタップしてインストールするのが最も簡単です。
+Androidスマホから **[ダウンロード専用Webサイト](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** にアクセスし、緑色のボタンをタップしてインストールするのが最も簡単です。
 （または [Releases](#) タブから直接 `app-release.apk` をダウンロードすることも可能です）
 
 ---
@@ -66,7 +66,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://ynk-same
 * 🤖 **智能会话管理:** 在后台自动处理 JAIST 服务器的重定向和会话 Cookie。
 
 ### 🚀 安装方法
-最简单的安装方法是使用您的 Android 设备访问我们的 **[下载网站](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** 并点击下载按钮。
+最简单的安装方法是使用您的 Android 设备访问我们的 **[下载网站](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** 并点击下载按钮。
 
 ---
 
@@ -78,7 +78,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://ynk-same
 * 🤖 **智慧會話管理:** 在後台自動處理 JAIST 伺服器的重新導向和會話 Cookie。
 
 ### 🚀 安裝方法
-最簡單的安裝方法是使用您的 Android 裝置訪問我們的 **[下載網站](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** 並點擊下載按鈕。
+最簡單的安裝方法是使用您的 Android 裝置訪問我們的 **[下載網站](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** 並點擊下載按鈕。
 
 ---
 
@@ -90,7 +90,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://ynk-same
 * 🤖 **스마트 세션 관리:** 백그라운드에서 JAIST 서버 리디렉션 및 세션 쿠키를 자동으로 처리합니다.
 
 ### 🚀 설치 방법
-가장 쉬운 설치 방법은 Android 기기에서 **[다운로드 웹사이트](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)**를 방문하여 다운로드 버튼을 누르는 것입니다.
+가장 쉬운 설치 방법은 Android 기기에서 **[다운로드 웹사이트](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)**를 방문하여 다운로드 버튼을 누르는 것입니다.
 
 ---
 
@@ -102,7 +102,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://ynk-same
 * 🤖 **Manajemen Sesi Cerdas:** Menangani pengalihan (redirects) server JAIST secara otomatis.
 
 ### 🚀 Cara Instalasi
-Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** kami dari perangkat Android Anda dan ketuk tombol unduh.
+Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** kami dari perangkat Android Anda dan ketuk tombol unduh.
 
 ---
 
@@ -114,7 +114,7 @@ Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](h
 * 🤖 **การจัดการเซสชันอัจฉริยะ:** จัดการการเปลี่ยนเส้นทาง (redirects) ของเซิร์ฟเวอร์ JAIST โดยอัตโนมัติ
 
 ### 🚀 วิธีการติดตั้ง
-วิธีที่ง่ายที่สุดในการติดตั้งคือการเข้าชม **[เว็บไซต์ดาวน์โหลด](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** จากอุปกรณ์ Android ของคุณและแตะปุ่มดาวน์โหลด
+วิธีที่ง่ายที่สุดในการติดตั้งคือการเข้าชม **[เว็บไซต์ดาวน์โหลด](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** จากอุปกรณ์ Android ของคุณและแตะปุ่มดาวน์โหลด
 
 ---
 
@@ -126,7 +126,7 @@ Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](h
 * 🤖 **Intelligentes Sitzungsmanagement:** Verarbeitet automatisch JAIST-Server-Weiterleitungen.
 
 ### 🚀 Installation
-Der einfachste Weg zur Installation ist der Besuch unserer **[Download-Website](https://ynk-samez.github.io/JAIST-Shuttle-Downloade-Site/)** von Ihrem Android-Gerät aus. Tippen Sie dort auf den Download-Button.
+Der einfachste Weg zur Installation ist der Besuch unserer **[Download-Website](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** von Ihrem Android-Gerät aus. Tippen Sie dort auf den Download-Button.
 
 ---
 
