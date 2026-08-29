@@ -53,7 +53,7 @@ Alternatively, you can download the `app-release.apk` directly from the [Release
 * 🤖 **自動セッション管理:** JAISTサーバー特有のリダイレクト処理やCookie保持をバックグラウンドで完全に自動化。
 
 ### 🚀 インストール方法
-Androidスマホから **[ダウンロード専用Webサイト](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** にアクセスし、緑色のボタンをタップしてインストールするのが最も簡単です。
+Androidスマホから **[ダウンロード専用Webサイト](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk)** にアクセスし、緑色のボタンをタップしてインストールするのが最も簡単です。
 （または [Releases](#) タブから直接 `app-release.apk` をダウンロードすることも可能です）
 
 ---
