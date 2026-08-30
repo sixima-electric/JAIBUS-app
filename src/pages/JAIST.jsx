@@ -1,3 +1,4 @@
+//will be decomposed maybe
 import "./layouts/base.css";
 function JAIST() {
   return (
