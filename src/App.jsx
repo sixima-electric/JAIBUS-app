@@ -47,6 +47,7 @@ const i18n = {
       "We welcome all forms of contribution! You can check out our source code for both the App and the API on GitHub, report bugs, suggest features, or submit pull requests.",
     footer_disc:
       "Not affiliated with JAIST. An independent open-source project.",
+    contact: "Contact: ",
   },
   ja: {
     title: "JAIST 小松線シャトルバス 代替予約アプリ",
@@ -93,6 +94,7 @@ const i18n = {
       "あらゆる形の貢献を歓迎します！GitHubにてアプリ版とAPI版のソースコードを確認し、バグ報告や機能提案、プルリクエストなどを送信していただけます。",
     footer_disc:
       "本アプリはJAISTの公式アプリではありません。独立したオープンソースプロジェクトです。",
+    contact: "お問い合わせ: ",
   },
 };
 
@@ -226,6 +228,7 @@ function App() {
               {t.download_apk}
             </a>
 
+            {/* GitHub - App */}
             <a
               href="https://github.com/ynk-samez/JAIBUS-app"
               target="_blank"
@@ -249,6 +252,7 @@ function App() {
               {t.github_app}
             </a>
 
+            {/* GitHub - API */}
             <a
               href="https://github.com/ynk-samez/JAIBUS-api"
               target="_blank"
@@ -275,6 +279,7 @@ function App() {
         </header>
 
         <main className="app-main">
+          {/* 特徴・メリット */}
           <section className="app-section">
             <div className="features-grid">
               <div className="feature-card">
@@ -346,18 +351,21 @@ function App() {
             </div>
           </section>
 
+          {/* 概要 */}
           <section className="app-section">
             <h2>{t.q1_title}</h2>
             <p>{t.q1_p1}</p>
             <p>{t.q1_p2}</p>
           </section>
 
+          {/* 仕組み */}
           <section className="app-section">
             <h2>{t.q2_title}</h2>
             <p>{t.q2_p1}</p>
             <p>{t.q2_p2}</p>
           </section>
 
+          {/* 技術スタック */}
           <section className="app-section">
             <h2>{t.tech_title}</h2>
             <p>{t.tech_desc}</p>
@@ -500,6 +508,15 @@ function App() {
 
         <footer className="app-footer">
           <p className="footer-disclaimer">{t.footer_disc}</p>
+          <p>
+            {t.contact}
+            <a
+              href="mailto:sixima@proton.me"
+              style={{ color: "var(--accent-color)", textDecoration: "none" }}
+            >
+              sixima@proton.me
+            </a>
+          </p>
           <p>&copy; {new Date().getFullYear()} JAIBUS-app Contributors.</p>
         </footer>
       </div>
