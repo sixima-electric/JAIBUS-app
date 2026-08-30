@@ -1,96 +1,12 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <!-- 基本メタデータ -->
-        <title>JAIBUS-app | JAIST 小松線シャトルバス 高速代替予約アプリ</title>
-        <meta
-            name="description"
-            content="JAIST（北陸先端科学技術大学院大学）小松線シャトルバスのための、高速でモダン、かつセキュアな非公式Android予約アプリ。公式システムと互換性を保ちながら、よりスムーズな予約体験を提供します。"
-        />
-        <meta
-            name="keywords"
-            content="JAIST, シャトルバス, 小松線, 予約アプリ, Android, オープンソース, JAIBUS"
-        />
-        <meta name="author" content="sixima" />
-        <meta name="theme-color" content="#08bdbd" />
-
-        <!-- ファビコン -->
-        <!-- TODO: 実際のバスのアイコンなどに差し替える場合は適宜パスを変更してください -->
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
-        <!-- iOSホーム画面追加用 -->
-
-        <!-- カノニカルURL (重複コンテンツを避けるため公式サイトのURLを指定) -->
-        <link rel="canonical" href="https://sixima.download/" />
-
-        <!-- OGP (Open Graph Protocol) - Facebook, LINE, AIクローラーのリッチカード用 -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sixima.download/" />
-        <meta
-            property="og:title"
-            content="JAIBUS-app | JAIST 小松線シャトルバス 代替予約アプリ"
-        />
-        <meta
-            property="og:description"
-            content="JAIST 小松線シャトルバスのための、高速でモダンな非公式Android予約アプリ。生体認証ログインとシームレスな操作性を実現。"
-        />
-        <!-- TODO: OGP画像をホスティングし、絶対URLをここに指定してください (例: https://sixima.download/og-image.png) -->
-        <!-- <meta property="og:image" content="https://sixima.download/og-image.png" /> -->
-        <meta property="og:site_name" content="JAIBUS-app" />
-
-        <!-- Twitter Cards - X(旧Twitter)用 -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-            name="twitter:title"
-            content="JAIBUS-app | JAIST 小松線シャトルバス 代替予約アプリ"
-        />
-        <meta
-            name="twitter:description"
-            content="JAIST 小松線シャトルバスのための、高速でモダンな非公式Android予約アプリ。"
-        />
-        <!-- TODO: OGP画像と同じ絶対URLを指定してください -->
-        <!-- <meta name="twitter:image" content="https://sixima.download/og-image.png" /> -->
-
-        <!-- クローラーへの指示 -->
-        <!-- 検索結果への表示(index)と、ページ内のリンクを辿る(follow)ことを許可 -->
-        <meta name="robots" content="index, follow" />
-
-        <!-- 構造化データ (JSON-LD) - 検索エンジンやAIにアプリの詳細を伝える -->
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "SoftwareApplication",
-                "name": "JAIBUS-app",
-                "operatingSystem": "Android",
-                "applicationCategory": "TravelApplication",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "JPY"
-                },
-                "description": "JAIST（北陸先端科学技術大学院大学）小松線シャトルバスのための、高速でモダン、かつセキュアな非公式Android予約アプリ。公式システムと互換性を保ちながら、生体認証による自動ログインや、より少ないタップ数での予約を実現します。",
-                "url": "https://sixima.download/",
-                "author": {
-                    "@type": "Person",
-                    "name": "sixima",
-                    "email": "sixima@proton.me"
-                },
-                "softwareHelp": "https://github.com/ynk-samez/JAIBUS-app"
-            }
-        </script>
-        <meta
-            name="google-site-verification"
-            content="nTOnuboAuvXXXYAicsJYzDrJ1OcMCzgace2vbEjKhis"
-        />
+        <title>Sixima</title>
     </head>
+
     <body>
-        <noscript
-            >JAIBUS-app
-            の公式サイトを表示するには、JavaScriptを有効にしてください。</noscript
-        >
         <div id="root"></div>
         <script type="module" src="/src/main.jsx"></script>
     </body>

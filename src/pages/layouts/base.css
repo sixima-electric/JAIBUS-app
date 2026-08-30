@@ -1,0 +1,416 @@
+:root {
+    /* Background */
+    --bg-color: #0b0f0c;
+    --surface-color: #111711;
+
+    /* Text */
+    --text-color: #d7e3d7;
+    --text-muted: #7f8f7f;
+    --text-bright: #f0f7f0;
+
+    /* Accent */
+    --accent-color: #a8cfa8;
+    --border-color: #4b5b4b;
+
+    /* Typography */
+    --font-main: "Courier New", "Lucida Console", monospace;
+    --font-size-base: 14px;
+    --line-height-base: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--font-size-base);
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+
+    background: var(--bg-color);
+    color: var(--text-color);
+
+    font-family: var(--font-main);
+    font-size: 1rem;
+    line-height: var(--line-height-base);
+
+    -webkit-font-smoothing: none;
+    text-rendering: geometricPrecision;
+}
+
+/* ----------------------------------------
+   Headings
+   ---------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 1rem;
+
+    color: var(--text-bright);
+
+    font-family: var(--font-main);
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+/* ----------------------------------------
+   Text
+   ---------------------------------------- */
+
+p {
+    margin: 0 0 1rem;
+}
+
+small {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+/* ----------------------------------------
+   Links
+   ---------------------------------------- */
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------
+   Buttons
+   ---------------------------------------- */
+
+button {
+    padding: 0.5rem 1rem;
+
+    border: 1px solid var(--border-color);
+    background: var(--surface-color);
+    color: var(--text-color);
+
+    font-family: var(--font-main);
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+button:focus-visible {
+    outline: 1px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* ----------------------------------------
+   Form
+   ---------------------------------------- */
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+
+    background: var(--surface-color);
+    color: var(--text-color);
+
+    font-family: var(--font-main);
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 1px solid var(--accent-color);
+}
+
+/* ----------------------------------------
+   Horizontal Rule
+   ---------------------------------------- */
+
+hr {
+    margin: 1.5rem 0;
+
+    border: 0;
+    border-top: 1px solid var(--border-color);
+}
+
+/* ----------------------------------------
+   Selection
+   ---------------------------------------- */
+
+::selection {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.terminal {
+    width: min(900px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 40px 0 80px;
+}
+.terminal-header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+}
+.title {
+    padding: 40px 0;
+}
+.title h1 {
+    margin: 15px 0;
+    font-size: clamp(1.8rem, 5vw, 3.2rem);
+    letter-spacing: 0.04em;
+}
+.sub {
+    color: var(--text-muted);
+}
+.label {
+    margin-bottom: 12px;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+}
+.section {
+    padding: 30px 0;
+}
+.section h2 {
+    margin-bottom: 20px;
+    letter-spacing: 0.08em;
+}
+.section p {
+    max-width: 700px;
+}
+.data-table {
+    border-top: 1px solid var(--border-color);
+}
+.data-table > div {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.data-table span:first-child {
+    color: var(--text-muted);
+}
+.research-list {
+    border-top: 1px solid var(--border-color);
+}
+.research-list div {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+.research-list div:hover {
+    padding-left: 10px;
+    background: var(--surface-color);
+}
+.quote {
+    margin: 30px 0;
+    padding-left: 20px;
+    border-left: 2px solid var(--border-color);
+    color: var(--accent-color);
+}
+.terminal-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+@media (max-width: 600px) {
+    .terminal {
+        width: calc(100% - 24px);
+        padding-top: 20px;
+    }
+    .terminal-header,
+    .terminal-footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .data-table > div {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}
+
+/* ========================================
+   Terminal Actions
+   ======================================== */
+
+.action-panel {
+    margin-top: 25px;
+}
+
+.terminal-button {
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border: 1px solid var(--border-color);
+
+    background: var(--surface-color);
+    color: var(--text-color);
+
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+
+    text-decoration: none;
+}
+
+.terminal-button:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+
+    text-decoration: none;
+}
+
+.research-list a {
+    display: block;
+
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.research-list a:hover {
+    color: var(--text-bright);
+}
+
+/* ======================================== JAIBUS Home ======================================== */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.brand-icon {
+    width: 18px;
+    height: 18px;
+}
+.hero-actions {
+    margin-top: 28px;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border: 1px solid var(--border-color);
+    background: var(--surface-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition:
+        background 80ms linear,
+        color 80ms linear;
+}
+.button:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+    text-decoration: none;
+}
+.button-primary {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+.button-icon {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+.github-mark {
+    font-size: 1rem;
+}
+.external {
+    color: var(--text-muted);
+}
+.nav-list {
+    border-top: 1px solid var(--border-color);
+}
+.nav-item {
+    display: grid;
+    grid-template-columns: 50px 1fr 30px;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+    text-decoration: none;
+}
+.nav-item:hover {
+    padding-left: 10px;
+    background: var(--surface-color);
+    text-decoration: none;
+}
+.nav-number {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.nav-content strong {
+    font-weight: normal;
+    letter-spacing: 0.04em;
+}
+.nav-content small {
+    color: var(--text-muted);
+}
+.nav-arrow {
+    color: var(--text-muted);
+    text-align: right;
+}
+.nav-item:hover .nav-arrow {
+    color: var(--text-bright);
+}
+.notice {
+    color: var(--text-muted);
+}
+.notice h2 {
+    color: var(--text-color);
+}
+@media (max-width: 600px) {
+    .nav-item {
+        grid-template-columns: 35px 1fr 20px;
+    }
+    .nav-content small {
+        font-size: 0.75rem;
+    }
+    .button {
+        width: 100%;
+        justify-content: center;
+    }
+}
