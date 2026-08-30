@@ -12,6 +12,10 @@
 
   <br>
 
+  ### 🏠 [Visit Official Website](https://sixima.download) 🏠
+
+  <br>
+
   ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
   ### 🌐 [Install from here !](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk) 🌐
   ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑
@@ -40,7 +44,7 @@
 * 🤖 **Smart Session Management:** Automatically handles JAIST server redirects and session cookies in the background.
 
 ### 🚀 Installation
-The easiest way to install the app is to visit our **[Download Website](https://ynk-samez.github.io/JAIST-Shuttle-Download-Site/)** from your Android device and tap the download button. 
+The easiest way to install the app is to visit our **[Official Website](https://sixima.download)** from your Android device and tap the download button. 
 Alternatively, you can download the `app-release.apk` directly from the [Releases](#) tab.
 
 ---
@@ -142,46 +146,45 @@ lib/
 ├── screens/         # UI layouts (login_screen.dart, booking_screen.dart)
 ├── services/        # Backend logic and API client (api_service.dart)
 └── main.dart        # Flutter entry point
+```
 
-### 🛠 Build Instructions
-Ensure you have the [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
+##🛠 Build Instructions
 
-1. **Clone the repository**
+Ensure you have the Flutter SDK installed on your machine.
+
+1. Clone the repository
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone https://github.com/ynk-samez/JAIBUS-app.git
+   cd JAIBUS-app
    ```
-
-2. **Install dependencies**
+2. Install dependencies
    ```bash
    flutter pub get
    ```
+3. Build for production (Release APK)  
+  ```bash
+  flutter build apk --release
+  ```
 
-3. **Build for production (Release APK)**
-   ```bash
-   flutter build apk --release
-   ```
-   *The generated APK will be located at `build/app/outputs/flutter-apk/app-release.apk`.*
+The generated APK will be located at build/app/outputs/flutter-apk/app-release.apk.
 
-### 🤝 Contributing
+## 🤝 Contributing
+
 Pull requests are welcome! If you find a bug or want to add a new feature (e.g., canceling reservations, viewing booking history), please open an issue first to discuss your ideas.
+⚠️ Disclaimer (免責事項 / 免责声明 / 免責聲明 / 면책 조항 / Peringatan / ข้อสงวนสิทธิ์ / Haftungsausschluss)
 
----
+This is an unofficial application and is not affiliated with, maintained, authorized, endorsed, or sponsored by the Japan Advanced Institute of Science and Technology (JAIST). Use at your own risk.
 
-## ⚠️ Disclaimer (免責事項 / 免责声明 / 免責聲明 / 면책 조항 / Peringatan / ข้อสงวนสิทธิ์ / Haftungsausschluss)
+本アプリは非公式のツールであり、北陸先端科学技術大学院大学（JAIST）とは一切関係ありません。公式のサポートや保証はありませんので、ご自身の責任においてご利用ください。
 
-> This is an **unofficial** application and is not affiliated with, maintained, authorized, endorsed, or sponsored by the Japan Advanced Institute of Science and Technology (JAIST). Use at your own risk.
->
-> 本アプリは**非公式**のツールであり、北陸先端科学技術大学院大学（JAIST）とは一切関係ありません。公式のサポートや保証はありませんので、ご自身の責任においてご利用ください。
->
-> 本应用为**非官方**工具，与日本北陆先端科学技术大学院大学 (JAIST) 无任何附属、维护、授权、认可或赞助关系。请自行承担使用风险。
->
-> 本應用為**非官方**工具，與日本北陸先端科學技術大學院大學 (JAIST) 無任何附屬、維護、授權、認可或贊助關係。請自行承擔使用風險。
->
-> 본 앱은 **비공식** 도구이며, 일본 호쿠리쿠 첨단과학기술대학원대학(JAIST)과 어떠한 제휴, 유지 관리, 승인, 보증 또는 후원 관계도 없습니다. 사용에 따른 위험은 사용자 본인이 부담합니다.
->
-> Aplikasi ini bersifat **tidak resmi** dan tidak berafiliasi, dikelola, disahkan, didukung, atau disponsori oleh Japan Advanced Institute of Science and Technology (JAIST). Gunakan dengan risiko Anda sendiri.
->
-> แอปพลิเคชันนี้เป็นแอปพลิเคชัน**ไม่เป็นทางการ** และไม่มีความเกี่ยวข้อง หรือไม่ได้รับการสนับสนุนจาก Japan Advanced Institute of Science and Technology (JAIST) ผู้ใช้ต้องยอมรับความเสี่ยงในการใช้งานเอง
->
-> Dies ist eine **inoffizielle** Anwendung und ist weder mit dem Japan Advanced Institute of Science and Technology (JAIST) verbunden, noch wird sie von diesem gepflegt, autorisiert, unterstützt oder gesponsert. Die Nutzung erfolgt auf eigene Gefahr.
+  本应用为非官方工具，与日本北陆先端科学技术大学院大学 (JAIST) 无任何附属、维护、授权、认可或赞助关系。请自行承担使用风险。
+
+  本應用為非官方工具，與日本北陸先端科學技術大學院大學 (JAIST) 無任何附屬、維護、授權、認可或贊助關係。請自行承擔使用風險。
+
+  본 앱은 비공식 도구이며, 일본 호쿠리쿠 첨단과학기술대학원대학(JAIST)과 어떠한 제휴, 유지 관리, 승인, 보증 또는 후원 관계도 없습니다. 사용에 따른 위험은 사용자 본인이 부담합니다.
+
+  Aplikasi ini bersifat tidak resmi dan tidak berafiliasi, dikelola, disahkan, didukung, atau disponsori oleh Japan Advanced Institute of Science and Technology (JAIST). Gunakan dengan risiko Anda sendiri.
+
+  แอปพลิเคชันนี้เป็นแอปพลิเคชันไม่เป็นทางการ และไม่มีความเกี่ยวข้อง หรือไม่ได้รับการสนับสนุนจาก Japan Advanced Institute of Science and Technology (JAIST) ผู้ใช้ต้องยอมรับความเสี่ยงในการใช้งานเอง
+
+  Dies ist eine inoffizielle Anwendung und ist weder mit dem Japan Advanced Institute of Science and Technology (JAIST) verbunden, noch wird sie von diesem gepflegt, autorisiert, unterstützt oder gesponsert. Die Nutzung erfolgt auf eigene Gefahr.
