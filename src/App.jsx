@@ -226,7 +226,6 @@ function App() {
               {t.download_apk}
             </a>
 
-            {/* GitHub - App */}
             <a
               href="https://github.com/ynk-samez/JAIBUS-app"
               target="_blank"
@@ -250,7 +249,6 @@ function App() {
               {t.github_app}
             </a>
 
-            {/* 新規追加: GitHub - API */}
             <a
               href="https://github.com/ynk-samez/JAIBUS-api"
               target="_blank"
@@ -277,7 +275,6 @@ function App() {
         </header>
 
         <main className="app-main">
-          {/* 特徴・メリット */}
           <section className="app-section">
             <div className="features-grid">
               <div className="feature-card">
@@ -349,21 +346,18 @@ function App() {
             </div>
           </section>
 
-          {/* 概要 */}
           <section className="app-section">
             <h2>{t.q1_title}</h2>
             <p>{t.q1_p1}</p>
             <p>{t.q1_p2}</p>
           </section>
 
-          {/* 仕組み */}
           <section className="app-section">
             <h2>{t.q2_title}</h2>
             <p>{t.q2_p1}</p>
             <p>{t.q2_p2}</p>
           </section>
 
-          {/* 技術スタック（ご指定のGitHubバッジを使用 + API用バッジ追加） */}
           <section className="app-section">
             <h2>{t.tech_title}</h2>
             <p>{t.tech_desc}</p>
