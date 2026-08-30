@@ -5,6 +5,7 @@ import About from "./pages/About";
 import JAIST from "./pages/JAIST";
 import JAIBUS from "./pages/JAIBUS";
 import Home from "./pages/Home";
+import Design from "./pages/Design";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/jaist" element={<JAIST />} />
       <Route path="/jaibus" element={<JAIBUS />} />
+      <Route path="/design" element={<Design />} />
     </Routes>
   );
 }

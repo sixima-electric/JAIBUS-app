@@ -414,3 +414,53 @@ hr {
         justify-content: center;
     }
 }
+
+/* ----------------------------------------
+   Highlight & Emphasize
+   ---------------------------------------- */
+
+/* 1. 高輝度テキスト (通常のstrong) */
+strong,
+b {
+    font-weight: normal; /* モノスペースでは太字より明度差で目立たせる */
+    color: var(--text-bright);
+}
+
+/* 2. インラインコード / パラメータ枠 */
+code {
+    padding: 2px 6px;
+    border: 1px solid var(--border-color);
+    background: var(--surface-color);
+    color: var(--accent-color);
+    font-family: var(--font-main);
+    font-size: 0.9em;
+}
+
+/* 3. 反転ブロックハイライト (ターミナル選択風) */
+mark,
+.hl-block {
+    display: inline-block;
+    padding: 0 4px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+/* アクセントカラー版の反転 */
+.hl-block-accent {
+    display: inline-block;
+    padding: 0 4px;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+/* 4. ドット破線下線 (用語・注釈風) */
+.hl-dash {
+    color: var(--text-bright);
+    border-bottom: 1px dashed var(--border-color);
+    text-decoration: none;
+    padding-bottom: 1px;
+}
