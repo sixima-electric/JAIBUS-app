@@ -1,4 +1,4 @@
-import "./layouts/base.css";
+import "./layouts/sixima.css";
 
 function Design() {
   return (

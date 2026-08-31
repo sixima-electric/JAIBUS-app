@@ -1,5 +1,5 @@
 //will be decomposed maybe
-import "./layouts/base.css";
+import "./layouts/sixima.css";
 function JAIST() {
   return (
     <main className="terminal">
