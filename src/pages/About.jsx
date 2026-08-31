@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { ReactFlow, Handle, Position, MarkerType } from "@xyflow/react";
 import "./layouts/sixima.css";
 import "./layouts/sixima-flow.css";
@@ -222,6 +223,17 @@ const siximaEdges = [
 ];
 
 function About() {
+  const [modalDiagram, setModalDiagram] = useState(null);
+
+  // Escキーでモーダルを閉じる
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setModalDiagram(null);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   return (
     <main className="terminal">
       {/* HEADER TELEMETRY */}
@@ -311,11 +323,21 @@ function About() {
         </p>
 
         <div className="flow-stack">
-          {/* Architecture Model 01 */}
-          <div className="flow-card">
+          {/* Card 01 */}
+          <div
+            className="flow-card"
+            onClick={() =>
+              setModalDiagram({
+                title: "ARCHITECTURE 01 // CONVENTIONAL MONOLITH",
+                subtitle: "RIGID 1-TO-N DISTRIBUTION MATRIX",
+                nodes: legacyNodes,
+                edges: legacyEdges,
+              })
+            }
+          >
             <div className="flow-card-header">
               <span>ARCHITECTURE 01 // CONVENTIONAL MONOLITH</span>
-              <span>[ RIGID 1-TO-N DISTRIBUTION ]</span>
+              <span>[ CLICK TO EXPAND // ZOOM ↗ ]</span>
             </div>
             <div className="flow-viewport">
               <ReactFlow
@@ -331,11 +353,21 @@ function About() {
             </div>
           </div>
 
-          {/* Architecture Model 02 */}
-          <div className="flow-card">
+          {/* Card 02 */}
+          <div
+            className="flow-card"
+            onClick={() =>
+              setModalDiagram({
+                title: "ARCHITECTURE 02 // SIXIMA DUAL PARADIGM",
+                subtitle: "REAL-TIME AGENTIC ADAPTATION PIPELINE",
+                nodes: siximaNodes,
+                edges: siximaEdges,
+              })
+            }
+          >
             <div className="flow-card-header">
               <span>ARCHITECTURE 02 // SIXIMA DUAL PARADIGM</span>
-              <span>[ REAL-TIME ADAPTIVE PIPELINE ]</span>
+              <span>[ CLICK TO EXPAND // ZOOM ↗ ]</span>
             </div>
             <div className="flow-viewport">
               <ReactFlow
@@ -353,13 +385,53 @@ function About() {
         </div>
       </section>
 
-      {/* 03 / BEYOND PURE UI: APPLIED UX & JAIBUS */}
+      {/* EXPANDED INSPECTOR MODAL */}
+      {modalDiagram && (
+        <div
+          className="flow-modal-overlay"
+          onClick={() => setModalDiagram(null)}
+        >
+          <div
+            className="flow-modal-container"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flow-modal-header">
+              <div>
+                <span style={{ color: "var(--accent-color)" }}>
+                  [ INSPECTOR VIEW ]
+                </span>{" "}
+                &nbsp;
+                <strong>{modalDiagram.title}</strong> — {modalDiagram.subtitle}
+              </div>
+              <button
+                className="flow-modal-close"
+                onClick={() => setModalDiagram(null)}
+              >
+                [ESC / CLOSE]
+              </button>
+            </div>
+            <div className="flow-modal-viewport">
+              <ReactFlow
+                nodes={modalDiagram.nodes}
+                edges={modalDiagram.edges}
+                nodeTypes={nodeTypes}
+                fitView
+                nodesDraggable={true}
+                zoomOnScroll={true}
+                panOnDrag={true}
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 03 / BEYOND PURE UI */}
       <section className="section">
         <p className="label">03 / EXTENDED SCOPE</p>
         <h2>BEYOND PURE UI: ENGINEERING HOLISTIC UX</h2>
         <p>
-          SIXIMA is not merely a visual styling layer or retro stylesheet. We
-          treat design as an end-to-end ergonomic discipline, engineering the{" "}
+          SIXIMA is not merely a visual styling layer. We treat design as an
+          end-to-end ergonomic discipline, engineering the{" "}
           <strong>complete user experience (UX)</strong>—from raw network
           latency and input ergonomics to cognitive comprehension speed.
         </p>

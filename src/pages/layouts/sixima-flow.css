@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SIXIMA REACT FLOW THEME SPECIFICATION (sixima-flow.css)
+   SIXIMA REACT FLOW THEME & MODAL SPECIFICATION (sixima-flow.css)
    ========================================================================== */
 @import "@xyflow/react/dist/style.css";
 
@@ -17,6 +17,12 @@
     border: 1px solid var(--border-color);
     background: var(--surface-color);
     padding: 1.5rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+}
+
+.flow-card:hover {
+    border-color: var(--accent-color);
 }
 
 .flow-card-header {
@@ -35,6 +41,7 @@
     height: 280px;
     background: var(--bg-color);
     border: 1px solid var(--border-color);
+    pointer-events: none; /* 一覧表示時はクリックイベントをカード全体へ通す */
 }
 
 /* ターミナルカスタムノード */
@@ -90,18 +97,65 @@
     stroke: var(--accent-color) !important;
 }
 
-/* エッジテキストラベル */
-.react-flow__edge-text {
-    fill: var(--text-color) !important;
-    font-family: var(--font-main) !important;
-    font-size: 0.75rem !important;
-}
-
-.react-flow__edge-textbg {
-    fill: var(--bg-color) !important;
-}
-
-/* 不要なコントロールUIを排除 */
 .react-flow__attribution {
     display: none !important;
+}
+
+/* ==========================================================================
+   TERMINAL INSPECTOR MODAL (EXPANDED VIEW)
+   ========================================================================== */
+
+.flow-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(11, 15, 12, 0.88);
+    backdrop-filter: blur(4px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.flow-modal-container {
+    width: min(1200px, 100%);
+    height: min(85vh, 800px);
+    background: var(--surface-color);
+    border: 1px solid var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.flow-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.flow-modal-close {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-bright);
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: var(--font-main);
+}
+
+.flow-modal-close:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.flow-modal-viewport {
+    flex: 1;
+    width: 100%;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
 }
