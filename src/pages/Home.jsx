@@ -135,7 +135,7 @@ function Home() {
             <span className="nav-number">01</span>{" "}
             <span className="nav-content">
               {" "}
-              <strong>ABOUT JAISBUS</strong>{" "}
+              <strong>ABOUT JAISBUS/FOR JAIST STUDENTS</strong>{" "}
               <small>Application overview and features</small>{" "}
             </span>{" "}
             <span className="nav-arrow">→</span>{" "}
