@@ -28,47 +28,38 @@ function Home() {
         </p>{" "}
         <div>
           <p>
-            <strong>SIXIMA</strong> is an experimental interface research
-            initiative established at the{" "}
+            Born at the{" "}
             <code>
               Japan Advanced Institute of Science and Technology (JAIST)
             </code>
-            . Our primary mission is to pioneer a dual-paradigm interaction
-            model: architecting systems that are not solely{" "}
-            <mark>Human-Friendly</mark>, but fundamentally{" "}
-            <mark>AI-Friendly</mark>. As autonomous agents, LLMs, and synthetic
-            intelligences increasingly navigate and manipulate software
-            alongside people, user interfaces can no longer be optimized
-            exclusively for human visual perception.
+            ,<strong>SIXIMA</strong> is an experimental research collective
+            redefining the digital surface. We are building for a new reality:
+            the web is no longer a human-exclusive domain. Interfaces must
+            evolve beyond being merely <mark>Human-Friendly</mark> to become
+            fundamentally <mark>AI-Friendly</mark>.
           </p>
 
           <p>
-            Our foundational release, <code>sixima-ui</code>, introduces a
-            high-density, retro-futuristic terminal environment defined by
-            monospaced typography, strict spatial containment, and
-            phosphor-grade luminance contrast. In an era where modern web
-            development often defaults to bloated asset bundles, excessive
-            script overhead, and decorative animations that obscure raw data,
-            <code>sixima-ui</code> poses a foundational question:
+            Modern software is suffocating under visual bloat, fragile layers,
+            and decorative noise. With our foundational release,{" "}
+            <code>sixima-ui</code>, we pose a radical question:
             <em>
-              Why construct fragile, heavy visual layers when structured,
-              text-first clarity offers superior cognitive velocity and
-              execution efficiency?
+              Why build heavy, exclusionary illusions when structured,
+              text-first clarity delivers absolute cognitive velocity?
             </em>
+            We strip away the excess, forging a high-density, deterministic
+            environment driven by spatial precision.
           </p>
 
           <p>
-            The core philosophy converges on two critical imperatives:{" "}
-            <strong>Artificial Intelligence</strong> and{" "}
-            <strong>Diversity</strong>. For AI agents, a semantic, structured,
-            text-driven DOM drastically reduces token serialization overhead,
-            eliminates DOM parsing ambiguities, and facilitates deterministic,
-            zero-error machine interaction. For human users, it guarantees
-            universal accessibility—ensuring instant rendering on
-            resource-constrained hardware, eliminating sensory fatigue, and
-            providing absolute legibility across diverse physical and cognitive
-            environments. SIXIMA bridges the boundary between human intent and
-            machine execution through radical structural simplicity.
+            Our philosophy is anchored by two imperatives:{" "}
+            <strong>Universal Diversity</strong> and{" "}
+            <strong>Machine Intelligence</strong>. For humans, we guarantee
+            uncompromising accessibility—eliminating sensory fatigue and
+            ensuring no one is left behind. For AI agents, our semantic DOM
+            drastically cuts token overhead and enables zero-hallucination
+            execution. SIXIMA bridges human intent and synthetic thought through
+            radical structural simplicity.
           </p>
         </div>
       </section>{" "}

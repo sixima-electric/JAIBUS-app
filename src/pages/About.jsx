@@ -3,7 +3,6 @@ import { ReactFlow, Handle, Position, MarkerType } from "@xyflow/react";
 import "./layouts/sixima.css";
 import "./layouts/sixima-flow.css";
 
-// カスタムノードコンポーネント
 const TerminalNode = ({ data }) => {
   return (
     <div className={`terminal-node ${data.variant || ""}`}>
