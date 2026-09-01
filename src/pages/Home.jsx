@@ -32,34 +32,56 @@ function Home() {
             <code>
               Japan Advanced Institute of Science and Technology (JAIST)
             </code>
-            ,<strong>SIXIMA</strong> is an experimental research collective
-            redefining the digital surface. We are building for a new reality:
-            the web is no longer a human-exclusive domain. Interfaces must
-            evolve beyond being merely <mark>Human-Friendly</mark> to become
-            fundamentally <mark>AI-Friendly</mark>.
+            ,<strong>SIXIMA</strong> confronts a systemic failure in how we
+            build the digital world. For too long, society has conveniently
+            divided humanity into two rigid categories: the "able-bodied" and
+            the "disabled." Under this false binary, technology is built for the
+            majority, while accessibility is treated as a charitable
+            afterthought—a band-aid slapped onto a finished product. Behind the
+            beautiful illusion of "Universal Design," countless individuals have
+            been quietly left out of our digital society. We have collectively
+            turned a blind eye. We must put an end to this.
           </p>
 
           <p>
-            Modern software is suffocating under visual bloat, fragile layers,
-            and decorative noise. With our foundational release,{" "}
-            <code>sixima-ui</code>, we pose a radical question:
-            <em>
-              Why build heavy, exclusionary illusions when structured,
-              text-first clarity delivers absolute cognitive velocity?
-            </em>
-            We strip away the excess, forging a high-density, deterministic
-            environment driven by spatial precision.
+            We refuse to accept the classification of human beings into the
+            capable and the incapable. The reality is that the spectrum of human
+            struggle exists far beyond medical labels. Even among those
+            traditionally deemed "normal," invisible barriers persist every day.
+            It is the neurodivergent individual who struggles to process a
+            clustered screen despite the information being right in front of
+            them. It is the aging user whose hands can no longer comfortably
+            reach the edge of a display. It is the person experiencing cognitive
+            fatigue who must re-read a single paragraph five times to grasp its
+            meaning. It is those who fundamentally cannot rely on visual
+            representations to navigate the world.
           </p>
 
           <p>
-            Our philosophy is anchored by two imperatives:{" "}
-            <strong>Universal Diversity</strong> and{" "}
-            <strong>Machine Intelligence</strong>. For humans, we guarantee
-            uncompromising accessibility—eliminating sensory fatigue and
-            ensuring no one is left behind. For AI agents, our semantic DOM
-            drastically cuts token overhead and enables zero-hallucination
-            execution. SIXIMA bridges human intent and synthetic thought through
-            radical structural simplicity.
+            Our mission statement is absolute:{" "}
+            <strong>Literally leave no one behind.</strong>
+          </p>
+
+          <p>
+            To realize this, the era of forcing humans to adapt to rigid
+            software must end; the software must adapt to the human. Designing
+            an architecture that is <mark>AI-Friendly</mark> is not our ultimate
+            goal—it is strictly the means to this end. By abandoning visual
+            bloat and providing a perfectly structured, deterministic HTML/CSS
+            foundation, we empower autonomous AI to act as a real-time,
+            personalized translator. The AI reads our zero-ambiguity structure
+            and dynamically reconstructs the interface—whether as a
+            high-contrast text layout, a rich GUI, or a synthesized
+            voice—perfectly calibrated to the individual's immediate needs.
+          </p>
+
+          <p>
+            We are not just theorizing about a more inclusive future. This very
+            website is the living sample implementation of our philosophy. Built
+            upon the <code>sixima-ui</code> framework, it stands as proof that
+            when we prioritize structural truth over superficial design, we can
+            finally build a digital reality that embraces the totality of the
+            human experience.
           </p>
         </div>
       </section>{" "}
