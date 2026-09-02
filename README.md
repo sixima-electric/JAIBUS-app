@@ -17,7 +17,7 @@
   <br>
 
   ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
-  ### 🌐 [Install from here !](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk) 🌐
+  ### 🌐 [Install from here !](https://github.com/sixima-electric/JAIBUS-app/releases/download/v2.0.1/app-release.apk) 🌐
   ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑
 
   <br>
@@ -94,7 +94,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://github.c
 * 🤖 **스마트 세션 관리:** 백그라운드에서 JAIST 서버 리디렉션 및 세션 쿠키를 자동으로 처리합니다.
 
 ### 🚀 설치 방법
-가장 쉬운 설치 방법은 Android 기기에서 **[다운로드 웹사이트](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk)**를 방문하여 다운로드 버튼을 누르는 것입니다.
+가장 쉬운 설치 방법은 Android 기기에서 **[다운로드 웹사이트](https://github.com/ynk-samez/JAIBUS-app/releases/download/v2.0.1/app-release.apk)**를 방문하여 다운로드 버튼을 누르는 것입니다.
 
 ---
 
@@ -106,7 +106,7 @@ Androidスマホから **[ダウンロード専用Webサイト](https://github.c
 * 🤖 **Manajemen Sesi Cerdas:** Menangani pengalihan (redirects) server JAIST secara otomatis.
 
 ### 🚀 Cara Instalasi
-Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk)** kami dari perangkat Android Anda dan ketuk tombol unduh.
+Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](https://github.com/sixima-electric/JAIBUS-app/releases/download/v1.0.0/app-release.apk)** kami dari perangkat Android Anda dan ketuk tombol unduh.
 
 ---
 
@@ -118,7 +118,7 @@ Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](h
 * 🤖 **การจัดการเซสชันอัจฉริยะ:** จัดการการเปลี่ยนเส้นทาง (redirects) ของเซิร์ฟเวอร์ JAIST โดยอัตโนมัติ
 
 ### 🚀 วิธีการติดตั้ง
-วิธีที่ง่ายที่สุดในการติดตั้งคือการเข้าชม **[เว็บไซต์ดาวน์โหลด](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk)** จากอุปกรณ์ Android ของคุณและแตะปุ่มดาวน์โหลด
+วิธีที่ง่ายที่สุดในการติดตั้งคือการเข้าชม **[เว็บไซต์ดาวน์โหลด](https://github.com/sixima-electric/JAIBUS-app/releases/download/v2.0.1/app-release.apk)** จากอุปกรณ์ Android ของคุณและแตะปุ่มดาวน์โหลด
 
 ---
 
@@ -130,7 +130,7 @@ Cara termudah untuk menginstal adalah dengan mengunjungi **[Situs Web Unduhan](h
 * 🤖 **Intelligentes Sitzungsmanagement:** Verarbeitet automatisch JAIST-Server-Weiterleitungen.
 
 ### 🚀 Installation
-Der einfachste Weg zur Installation ist der Besuch unserer **[Download-Website](https://github.com/ynk-samez/JAIBUS-app/releases/download/v1.0.0/app-release.apk)** von Ihrem Android-Gerät aus. Tippen Sie dort auf den Download-Button.
+Der einfachste Weg zur Installation ist der Besuch unserer **[Download-Website](https://github.com/sixima-electric/JAIBUS-app/releases/download/v2.0.1/app-release.apk)** von Ihrem Android-Gerät aus. Tippen Sie dort auf den Download-Button.
 
 ---
 
