@@ -174,12 +174,10 @@ The generated APK will be located at build/app/outputs/flutter-apk/app-release.a
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 181px !important;" >
   </a>
   <p>
-    <b>The Android app will always remain 100% free!</b><br>
     If you find this app helpful and want to support its ongoing development, buying me a coffee would be incredibly motivating! I'm also dreaming of eventually bringing this to iPhone users (which requires a $99/year Apple Developer fee), so your support would be a huge step toward that goal.
   </p>
   <p>
-    <b>本アプリ（Android版）はずっと無料でご利用いただけます！</b><br>
-    もしこのアプリを使って「便利だな」と思っていただけたら、開発のモチベーションとしてコーヒー1杯分の応援をいただけるととても嬉しいです！将来的には「iPhone版（iOS版）も出せたらいいな」と考えており（Appleの開発者登録には年間約15,000円かかってしまうため...）、いただいた支援は今後の開発活動やそうした目標への大切な一歩として活用させていただきます。
+    もしこのアプリを使って「便利だな」と思っていただけたら、開発のモチベーションとしてコーヒー1杯分の応援をいただけるととても嬉しいです！将来的には「iPhone版（iOS版）も出せたらいいな」と考えており（Appleの開発者登録には年間約15,000円かかってしまうため...）、いただいた支援は今後の開発活動やそうした目標への大切な一歩として活用させていただきます
   </p>
 </div>
 
